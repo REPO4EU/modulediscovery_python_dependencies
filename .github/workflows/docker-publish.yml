@@ -25,6 +25,7 @@ jobs:
       id-token: write
       
     steps:
+      # Necessary for buildx
       - name: Checkout repository
         uses: actions/checkout@v4
         
